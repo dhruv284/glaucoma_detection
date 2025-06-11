@@ -9,7 +9,7 @@ import io
 app = Flask(__name__)
 
 # Load model
-model = load_model('model\mobilenet_glaucoma_model.h5',compile=False)
+model = load_model('model/mobilenet_glaucoma_model.h5',compile=False)
 
 # Preprocess image to match model input
 def preprocess_image(img):
